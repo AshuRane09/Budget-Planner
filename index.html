@@ -12,11 +12,12 @@
 </head>
 
 <body>
+    <div class="ashu">
     <div class="top">
         <div class="app">
             <div class="app_name">Budget Planner</div>
             <div class="app_title">
-                <span class="app_title-month"> Available Budget in November 2020: </span>
+                Available Budget in <span class="app_title-month">%Month%</span>:
             </div>
             <div class="total_value">+2345</div>
 
@@ -37,13 +38,14 @@
             </div>
         </div>
     </div>
+    </div>
 
     <div class="bottom">
         <div class="add">
             <div class="add_container">
                 <select class="add_type">
                     <option value="inc" selected>+</option>
-                    <option value="dec">-</option>
+                    <option value="exp">-</option>
                 </select>
                 <input type="text" placeholder="Add Description" class="add_description">
                 <input type="number" placeholder="Value" class="add_value">
@@ -56,7 +58,7 @@
                 <h2 class="income_title">Income</h2>
                 <div class="income_list">
 
-                    <!-- <div class="item clearfix" id="income-0">
+                    <!-- <div class="item clearfix" id="inc-0">
                         <div class="item_description">Salary</div>
                         <div class="right clearfix">
                             <div class="item_value">+ 2,100.00</div>
@@ -68,7 +70,7 @@
                         </div>
                     </div>
 
-                    <div class="item clearfix" id="income-1">
+                    <div class="item clearfix" id="inc-1">
                         <div class="item_description">Salary</div>
                         <div class="right clearfix">
                             <div class="item_value">+ 2,100.00</div>
@@ -87,7 +89,7 @@
                 <h2 class="expenses_title">Expenses</h2>
                 <div class="expenses_list">
 
-                    <!-- <div class="item clearfix" id="expense-0">
+                    <!-- <div class="item clearfix" id="exp-0">
                         <div class="item_description">Movie</div>
                         <div class="right clearfix">
                             <div class="item_value">- 900.00</div>
@@ -98,7 +100,7 @@
                         </div>
                     </div>
 
-                    <div class="item clearfix" id="expense-1">
+                    <div class="item clearfix" id="exp-1">
                         <div class="item_description">Movie</div>
                         <div class="right clearfix">
                             <div class="item_value">- 900.00</div>
@@ -112,6 +114,8 @@
             </div>
         </div>
     </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="app.js" charset="utf-8"></script>
 </body>
 
 </html>
