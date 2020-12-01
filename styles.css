@@ -33,18 +33,19 @@ body {
     font-size: 50px;
     color: yellow;
 }
-/* .ashu{
+.ashu{
     height: 45vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("images/back1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     backface-visibility: hidden;
-} */
+}
 
 .top {
     height: 45vh;
     position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("images/back1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
